@@ -1,18 +1,28 @@
  body {
-  min-height: 100vh;
-  background-image: url('IMAGES/SAMPLE_IMG/b1.jpg');
+   min-height: 100vh;
+  /*background-image: url('IMAGES/SAMPLE_IMG/b1.jpg'); */
+  background-color: black;
   background-size:cover;
   
 }
-.blur{
-  width:100%;
-  height:100%;
-  backdrop-filter:blur(1px); 
-  color:aliceblue;
-  font-family:Arial, Helvetica, sans-serif;
-  display:flex;
-  
-  
+.follow-us{
+  color:black;
+  font-size:20px;
+  border:5px
+  font-family: 'Raleway', sans-serif;
+}
+.footer-background{
+  background-color:yellow;
 
-} 
- 
+}
+.header-link{
+  font-size:25px;
+  padding-left: 50px;
+  color:black;
+}
+.footer-link{
+
+  margin: 10px;
+
+border-radius: 50px;
+}
