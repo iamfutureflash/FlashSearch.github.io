@@ -1,28 +1,26 @@
- body {
-   min-height: 100vh;
-  /*background-image: url('IMAGES/SAMPLE_IMG/b1.jpg'); */
-  background-color: black;
-  background-size:cover;
+*{
+  margin-top:0%;
+  padding: 0%;
+}
+main{
   
+  background-image:url(IMAGES/SAMPLE_IMG/b1.jpg);
+  background-size:cover;
+  height:100vh;
+  color:rgb(255, 255, 255);
 }
-.follow-us{
-  color:black;
-  font-size:20px;
-  border:5px
-  font-family: 'Raleway', sans-serif;
+.main-div{
+height:100vh;
 }
-.footer-background{
-  background-color:yellow;
-
+.item-1{
+flex:1;
 }
-.header-link{
-  font-size:25px;
-  padding-left: 50px;
-  color:black;
+.item-2{
+  flex:12;
 }
-.footer-link{
-
-  margin: 10px;
-
-border-radius: 50px;
+.item-3{
+  flex:1;
+}
+.btn-style{
+  list-style: none;
 }
