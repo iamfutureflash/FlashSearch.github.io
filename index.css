@@ -2,12 +2,13 @@
   margin-top:0%;
   padding: 0%;
 }
-main{
+.background-for-all{
   
   background-image:url(IMAGES/SAMPLE_IMG/b1.jpg);
   background-size:cover;
   background-repeat:repeat;
   height:100vh;
+  width:100%;
   color:rgb(255, 255, 255);
 }
 .main-div{
