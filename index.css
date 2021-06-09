@@ -6,6 +6,7 @@ main{
   
   background-image:url(IMAGES/SAMPLE_IMG/b1.jpg);
   background-size:cover;
+  background-repeat:repeat;
   height:100vh;
   color:rgb(255, 255, 255);
 }
@@ -16,7 +17,7 @@ height:100vh;
 flex:1;
 }
 .item-2{
-  flex:12;
+  flex:4;
 }
 .item-3{
   flex:1;
