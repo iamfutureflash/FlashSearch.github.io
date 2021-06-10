@@ -12,28 +12,10 @@
   color:rgb(255, 255, 255);
 }
 .main-div{
-height:100vh;
+height:100%;
+
 }
-.item-1{
-flex:1;
-}
-.item-2{
-  flex:4;
-}
-.item-3{
-  flex:1;
-}
-.btn-style{
-  list-style: none;
-}
-.testbutton {
-  font-family: arial;
-  color: #14396A !important;
-  font-size: 24px;
-  text-shadow: 1px 1px 0px #7CACDE;
-  box-shadow: 4px 4px 10px #F9F9F9;
-  padding: 14px 28px;
-  border-radius: 40px;
-  border: 0px solid #4EFF33;
-  background: #08EE00;
+.child-div{
+  
+  height:100%;
 }
