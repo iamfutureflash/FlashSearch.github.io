@@ -2,6 +2,9 @@
   margin:0%;
   padding: 0%;
 }
+.flash-search{
+  font-size:3.2rem;
+}
 .background-for-all{
   
   background-image:url(IMAGES/SAMPLE_IMG/b1.jpg);
@@ -21,12 +24,31 @@ height:100%;
 }
 @media (max-width:499px)
 {
+  .background-for-all{
+  
+  background-image:url(IMAGES/SAMPLE_IMG/b1.jpg);
+  background-size:cover;
+  background-repeat:repeat;
+  height:60%;
+  width:100%;
+  color:rgb(255, 255, 255);
+}
+
   html{
     font-size:60%;
   }
 }
 @media (max-width:330px)
 {
+    .background-for-all{
+  
+  background-image:url(IMAGES/SAMPLE_IMG/b1.jpg);
+  background-size:cover;
+  background-repeat:repeat;
+  height:50%;
+  width:100%;
+  color:rgb(255, 255, 255);
+}
   html{
     font-size:50%;
     
@@ -34,6 +56,15 @@ height:100%;
 }
 @media (max-width:265px)
 {
+    .background-for-all{
+  
+  background-image:url(IMAGES/SAMPLE_IMG/b1.jpg);
+  background-size:cover;
+  background-repeat:repeat;
+  height:40%;
+  width:100%;
+  color:rgb(255, 255, 255);
+}
   html{
     font-size:40%;
     height:100vh;
@@ -43,6 +74,15 @@ height:100%;
 }
 @media (max-width:213px)
 {
+    .background-for-all{
+  
+  background-image:url(IMAGES/SAMPLE_IMG/b1.jpg);
+  background-size:cover;
+  background-repeat:repeat;
+  height:30%;
+  width:100%;
+  color:rgb(255, 255, 255);
+}
   html{
     font-size:30%;
     height:100vh;
@@ -52,6 +92,15 @@ height:100%;
 }
 @media (max-width:180px)
 {
+    .background-for-all{
+  
+  background-image:url(IMAGES/SAMPLE_IMG/b1.jpg);
+  background-size:cover;
+  background-repeat:repeat;
+  height:20%;
+  width:100%;
+  color:rgb(255, 255, 255);
+}
   html{
     font-size:20%;
     height:100vh;
@@ -61,6 +110,15 @@ height:100%;
 }
 @media (max-width:112px)
 {
+    .background-for-all{
+  
+  background-image:url(IMAGES/SAMPLE_IMG/b1.jpg);
+  background-size:cover;
+  background-repeat:repeat;
+  height:10%;
+  width:100%;
+  color:rgb(255, 255, 255);
+}
   html{
     font-size:10%;
     height:100vh;
@@ -70,6 +128,15 @@ height:100%;
 }
 @media (max-width:60px)
 {
+    .background-for-all{
+  
+  background-image:url(IMAGES/SAMPLE_IMG/b1.jpg);
+  background-size:cover;
+  background-repeat:repeat;
+  height:6%;
+  width:100%;
+  color:rgb(255, 255, 255);
+}
   html{
     font-size:6%;
     height:100vh;
