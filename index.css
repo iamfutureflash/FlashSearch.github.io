@@ -1,10 +1,24 @@
 *{
   margin:0%;
   padding: 0%;
+  cursor: pointer;
 }
-.flash-search{
-  font-size:3.2rem;
+.footer-list{
+  text-decoration: none;
+  color: #fff;
+  font-family:cyberpunk;
+  padding:10px;
 }
+.flash-search :hover{
+    transition:.1s;
+    text-shadow: 0 0 10px rgb(2, 255, 242),
+                 0 0 20px rgb(2, 255, 242),
+                 0 0 40px rgb(2, 255, 242),
+                 0 0 80px rgb(2, 255, 242),
+                 0 0 120px rgb(2, 255, 242),
+                 0 0 160px rgb(2, 255, 242);
+}
+
 .background-for-all{
   
   background-image:url(IMAGES/SAMPLE_IMG/b1.jpg);
@@ -13,7 +27,9 @@
   height:100%;
   width:100%;
   color:rgb(255, 255, 255);
+
 }
+
 .main-div{
 height:100%;
 
