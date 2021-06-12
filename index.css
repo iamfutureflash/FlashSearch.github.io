@@ -3,31 +3,45 @@
   padding: 0%;
   cursor: pointer;
 }
+.main-heading{
+  padding: .50rem;
+  font-size: 4rem;
+  color:rgb(255, 255, 255);
+  font-family: 'Josefin Sans', sans-serif;
+}
 .footer-list{
   text-decoration: none;
   color: #fff;
-  font-family:cyberpunk;
+  font-family: 'Josefin Sans', sans-serif;
   padding:10px;
 }
 .flash-search :hover{
-    transition:.1s;
-    text-shadow: 0 0 10px rgb(2, 255, 242),
-                 0 0 20px rgb(2, 255, 242),
-                 0 0 40px rgb(2, 255, 242),
-                 0 0 80px rgb(2, 255, 242),
-                 0 0 120px rgb(2, 255, 242),
-                 0 0 160px rgb(2, 255, 242);
+    transition:.3s;
+    text-shadow: 0 0 10px rgb(255, 255, 255),
+                 0 0 20px rgb(255, 255, 255),
+                 0 0 40px rgb(255, 251, 251),
+                 0 0 80px rgb(255, 254, 254),
+                 0 0 120px rgb(255, 255, 255),
+                 0 0 160px rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 9rem;
+  border-bottom-style:inherit;
+  /* border-width:.2rem;
+  border-spacing: 0rem; */
 }
 
 .background-for-all{
   
-  background-image:url(IMAGES/SAMPLE_IMG/b1.jpg);
+  background-image:
+  linear-gradient(rgba(0, 0, 0, 0.5),
+  rgba(0, 0, 0, 0.5)), 
+  url(IMAGES/SAMPLE_IMG/b5.jpg);
   background-size:cover;
   background-repeat:repeat;
   height:100%;
   width:100%;
   color:rgb(255, 255, 255);
-
+  
 }
 
 .main-div{
