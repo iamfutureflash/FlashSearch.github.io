@@ -16,34 +16,19 @@
   padding:10px;
 }
 .flash-search :hover{
-    transition:.3s;
+    transition:.5s;
+    color:rgb(163, 163, 163);
     text-shadow: 0 0 10px rgb(255, 255, 255),
                  0 0 20px rgb(255, 255, 255),
                  0 0 40px rgb(255, 251, 251),
-                 0 0 80px rgb(255, 254, 254),
-                 0 0 120px rgb(255, 255, 255),
-                 0 0 160px rgb(255, 255, 255);
-  border: 1px  rgb(255, 255, 255);
-  border-top: aqua;
-  border-bottom: aqua;
-  border-radius: 5rem;
+                 0 0 80px rgb(255, 254, 254);
 
 }
-.flash-footer :hover{
-    transition:.5s;
-    text-shadow: 0 0 10px rgb(255, 255, 255),
-                 0 0 20px rgb(255, 255, 255),
-                 0 0 40px rgb(255, 251, 251),
-                 0 0 80px rgb(255, 254, 254),
-                 0 0 120px rgb(255, 255, 255),
-                 0 0 160px rgb(255, 255, 255);
-                 padding-bottom:0rem;
-                 padding-left:0rem;
-                 padding-right:0rem;
-                 padding-top:1rem;
-  border: 5px  rgba(255, 255, 255, 0.699);
-border-top: aqua;
-  border-bottom: aqua;
+.flash-footer:hover{
+  transition:.5s;
+  font-family: 'Do Hyeon', sans-serif;
+  color:whitesmoke;
+  background-color:rgba(132, 66, 255, 0.377);
   border-radius: 5rem;
 }
 .background-for-all{
