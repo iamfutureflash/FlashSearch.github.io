@@ -1,177 +1,152 @@
-*{
-  margin:0%;
+* {
+  margin: 0%;
   padding: 0%;
+  transition: all;
   cursor: pointer;
+
 }
-.main-heading{
-  padding: .50rem;
+.main-heading {
+  padding: 0.5rem;
   font-size: 4rem;
-  color:rgb(255, 255, 255);
-  font-family: 'Pacifico', cursive;
+  color: rgb(255, 255, 255);
+  font-family:cyberpunk;
 }
-.footer-list{
+.footer-list {
   text-decoration: none;
   color: #fff;
-  font-family: 'Josefin Sans', sans-serif;
-  padding:10px;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 10px;
 }
-.flash-search :hover{
-    transition:.5s;
-    color:rgb(163, 163, 163);
-    text-shadow: 0 0 10px rgb(255, 255, 255),
-                 0 0 20px rgb(255, 255, 255),
-                 0 0 40px rgb(255, 251, 251),
-                 0 0 80px rgb(255, 254, 254);
-
+.flash-search :hover {
+  transition: 0.5s;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 10px rgb(255, 255, 255),
+               0 0 20px rgb(255, 255, 255),
+               0 0 40px rgb(255, 251, 251), 
+               0 0 80px rgb(255, 254, 254);
 }
-.flash-footer:hover{
-  transition:.5s;
-  font-family: 'Do Hyeon', sans-serif;
-  color:whitesmoke;
-  background-color:rgba(132, 66, 255, 0.377);
+.flash-footer:hover {
+  transition: 0.5s;
+  font-family: "Do Hyeon", sans-serif;
+  color: whitesmoke;
+  background-color: rgba(132, 66, 255, 0.377);
   border-radius: 5rem;
 }
-.background-for-all{
-  
-  background-image:
-  linear-gradient(rgba(0, 0, 0, 0.5),
-  rgba(0, 0, 0, 0.5)), 
-  url(IMAGES/SAMPLE_IMG/b5.jpg);
-  background-size:cover;
+.background-for-all {
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .1)),
+    url(IMAGES/SAMPLE_IMG/b8.png);
+  background-size:contain;
   background-repeat:repeat;
-  height:100%;
-  width:100%;
-  color:rgb(255, 255, 255);
-  
+  height: 70%;
+  width: 100%;
+  color: rgb(255, 255, 255);
 }
 
-.main-div{
-height:100%;
+.main-div {
+  height: 100%;
+}
+.child-div {
+  height: 100%;
+}
+@media (max-width: 499px) {
+  .background-for-all {
+    background-image: url(IMAGES/SAMPLE_IMG/b8.png);
+    background-size: cover;
+    background-repeat: repeat;
+    height: 60%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+  }
 
-}
-.child-div{
-  
-  height:100%;
-}
-@media (max-width:499px)
-{
-  .background-for-all{
-  
-  background-image:url(IMAGES/SAMPLE_IMG/b1.jpg);
-  background-size:cover;
-  background-repeat:repeat;
-  height:60%;
-  width:100%;
-  color:rgb(255, 255, 255);
-}
-
-  html{
-    font-size:60%;
+  html {
+    font-size: 60%;
   }
 }
-@media (max-width:330px)
-{
-    .background-for-all{
-  
-  background-image:url(IMAGES/SAMPLE_IMG/b1.jpg);
-  background-size:cover;
-  background-repeat:repeat;
-  height:50%;
-  width:100%;
-  color:rgb(255, 255, 255);
-}
-  html{
-    font-size:50%;
-    
+@media (max-width: 330px) {
+  .background-for-all {
+    background-image: url(IMAGES/SAMPLE_IMG/b8.png);
+    background-size: cover;
+    background-repeat: repeat;
+    height: 50%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+  }
+  html {
+    font-size: 50%;
   }
 }
-@media (max-width:265px)
-{
-    .background-for-all{
-  
-  background-image:url(IMAGES/SAMPLE_IMG/b1.jpg);
-  background-size:cover;
-  background-repeat:repeat;
-  height:40%;
-  width:100%;
-  color:rgb(255, 255, 255);
-}
-  html{
-    font-size:40%;
-    height:100vh;
-    background-color:black;
-    
+@media (max-width: 265px) {
+  .background-for-all {
+    background-image: url(IMAGES/SAMPLE_IMG/b8.png);
+    background-size: cover;
+    background-repeat: repeat;
+    height: 40%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+  }
+  html {
+    font-size: 40%;
+    height: 100vh;
+    background-color: black;
   }
 }
-@media (max-width:213px)
-{
-    .background-for-all{
-  
-  background-image:url(IMAGES/SAMPLE_IMG/b1.jpg);
-  background-size:cover;
-  background-repeat:repeat;
-  height:30%;
-  width:100%;
-  color:rgb(255, 255, 255);
-}
-  html{
-    font-size:30%;
-    height:100vh;
-    background-color:black;
-    
+@media (max-width: 213px) {
+  .background-for-all {
+    background-image: url(IMAGES/SAMPLE_IMG/b8.png);
+    background-size: cover;
+    background-repeat: repeat;
+    height: 30%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+  }
+  html {
+    font-size: 30%;
+    height: 100vh;
+    background-color: black;
   }
 }
-@media (max-width:180px)
-{
-    .background-for-all{
-  
-  background-image:url(IMAGES/SAMPLE_IMG/b1.jpg);
-  background-size:cover;
-  background-repeat:repeat;
-  height:20%;
-  width:100%;
-  color:rgb(255, 255, 255);
-}
-  html{
-    font-size:20%;
-    height:100vh;
-    background-color:black;
-    
+@media (max-width: 180px) {
+  .background-for-all {
+    background-image: url(IMAGES/SAMPLE_IMG/b8.png);
+    background-size: cover;
+    background-repeat: repeat;
+    height: 20%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+  }
+  html {
+    font-size: 20%;
+    height: 100vh;
+    background-color: black;
   }
 }
-@media (max-width:112px)
-{
-    .background-for-all{
-  
-  background-image:url(IMAGES/SAMPLE_IMG/b1.jpg);
-  background-size:cover;
-  background-repeat:repeat;
-  height:10%;
-  width:100%;
-  color:rgb(255, 255, 255);
-}
-  html{
-    font-size:10%;
-    height:100vh;
-    background-color:black;
-    
+@media (max-width: 112px) {
+  .background-for-all {
+    background-image: url(IMAGES/SAMPLE_IMG/b8.png);
+    background-size: cover;
+    background-repeat: repeat;
+    height: 10%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+  }
+  html {
+    font-size: 10%;
+    height: 100vh;
+    background-color: black;
   }
 }
-@media (max-width:60px)
-{
-    .background-for-all{
-  
-  background-image:url(IMAGES/SAMPLE_IMG/b1.jpg);
-  background-size:cover;
-  background-repeat:repeat;
-  height:6%;
-  width:100%;
-  color:rgb(255, 255, 255);
-}
-  html{
-    font-size:6%;
-    height:100vh;
-    background-color:black;
-    
+@media (max-width: 60px) {
+  .background-for-all {
+    background-image: url(IMAGES/SAMPLE_IMG/b8.png);
+    background-size: cover;
+    background-repeat: repeat;
+    height: 6%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+  }
+  html {
+    font-size: 6%;
+    height: 100vh;
+    background-color: black;
   }
 }
