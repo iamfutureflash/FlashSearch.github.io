@@ -50,6 +50,26 @@
 .child-div {
   height: 100%;
 }
+@media (max-width: 576px) {
+  .background-for-all {
+    background-image: url(IMAGES/SAMPLE_IMG/b8.png);
+    background-size: cover;
+    background-repeat: repeat;
+    height: 100%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    
+    
+  }
+  .small_grid{    
+    flex-direction:column;
+  }
+
+  html {
+    font-size: 60%;
+
+  }
+}
 @media (max-width: 499px) {
   .background-for-all {
     background-image: url(IMAGES/SAMPLE_IMG/b8.png);
@@ -58,6 +78,9 @@
     height: 60%;
     width: 100%;
     color: rgb(255, 255, 255);
+  }
+  .small_grid{    
+    flex-direction:column;
   }
 
   html {
@@ -73,6 +96,9 @@
     width: 100%;
     color: rgb(255, 255, 255);
   }
+  .small_grid{    
+    flex-direction:column;
+  }
   html {
     font-size: 50%;
   }
@@ -85,6 +111,9 @@
     height: 40%;
     width: 100%;
     color: rgb(255, 255, 255);
+  }
+  .small_grid{    
+    flex-direction:column;
   }
   html {
     font-size: 40%;
@@ -101,6 +130,9 @@
     width: 100%;
     color: rgb(255, 255, 255);
   }
+  .small_grid{    
+    flex-direction:column;
+  }
   html {
     font-size: 30%;
     height: 100vh;
@@ -115,6 +147,9 @@
     height: 20%;
     width: 100%;
     color: rgb(255, 255, 255);
+  }
+  .small_grid{    
+    flex-direction:column;
   }
   html {
     font-size: 20%;
@@ -131,6 +166,9 @@
     width: 100%;
     color: rgb(255, 255, 255);
   }
+  .small_grid{    
+    flex-direction:column;
+  }
   html {
     font-size: 10%;
     height: 100vh;
@@ -145,6 +183,9 @@
     height: 6%;
     width: 100%;
     color: rgb(255, 255, 255);
+  }
+  .small_grid{    
+    flex-direction:column;
   }
   html {
     font-size: 6%;
