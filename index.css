@@ -9,8 +9,10 @@ html {
   cursor:auto;
 }
 footer{
-  background-color:rgba(0, 17, 255, 0.2);
-  color:white;
+  background-color:rgba(204, 0, 255, 0.2);
+}
+.m-bg{
+  background-color:rgba(255, 255, 255, 0.1);
 }
 .c-bg{
   background-color:rgba(0, 0, 0, 0.7);
