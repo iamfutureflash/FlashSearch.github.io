@@ -10,8 +10,11 @@ html {
 }
 .custom-hover:hover{
 background-color:rgb(172, 0, 252);
-border-radius: 2px;
-color:rgb(0, 0, 0);
+border:5px dashed rgb(0, 255, 221);
+border-radius: 3px;
+color:rgb(255, 255, 255);
+font-family:arial;
+font-size:25px;
 }
 footer{
   background-color:rgba(204, 0, 255, 0.2);
