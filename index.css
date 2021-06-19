@@ -8,6 +8,11 @@ html {
   transition: all;
   cursor:auto;
 }
+.custom-hover:hover{
+background-color:rgb(172, 0, 252);
+border-radius: 2px;
+color:rgb(0, 0, 0);
+}
 footer{
   background-color:rgba(204, 0, 255, 0.2);
 }
