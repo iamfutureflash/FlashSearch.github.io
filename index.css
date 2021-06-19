@@ -8,6 +8,10 @@ html {
   transition: all;
   cursor:auto;
 }
+footer{
+  background-color:rgba(0, 17, 255, 0.2);
+  color:white;
+}
 .c-bg{
   background-color:rgba(0, 0, 0, 0.7);
 }
