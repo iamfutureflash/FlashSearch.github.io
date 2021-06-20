@@ -1,16 +1,16 @@
 html {
     background-color: black;
 
-  }
+}
 * {
   margin: 0%;
   padding: 0%;
   transition: all;
   cursor:auto;
-}
+  }
 .card{
   border-bottom-right-radius:2rem;
-}
+  }
 .course{
   text-decoration: none;
   color:rgb(255, 230, 0);
@@ -35,6 +35,11 @@ color:rgb(0, 0, 0);
 font-family: 'Caveat', cursive;
 font-size:24px;
 }
+.size-2{
+flex:3;
+}
+
+ 
 footer{
   background-color:rgba(0, 0, 0, 0.6);
 }
