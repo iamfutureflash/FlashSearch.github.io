@@ -15,27 +15,15 @@ html {
 .card{
   border-radius:.5rem;
   }
-.course{
-  text-decoration: none;
-  color:rgb(3, 0, 156);
-}
+  
+
 .custom-heading{
   background-color: rgba(255, 255, 255, 0.295);
   border-radius:.5rem;
   color:rgb(0, 0, 0);
 font-size:1.5rem;
 }
-.custom-hover:hover{
-  padding-right:10px;
-  padding-left:10px;
-  transition:.3s;
-  box-shadow: .5rem .5rem .9rem rgba(255, 255, 255, 0.377);
-  background-color: rgba(255, 255, 255, 0.377);
-  border:.2rem solid rgba(0, 0, 0, 0.377);
-border-radius:.3rem;
-color:rgb(0, 0, 0);
-font-size:1.5rem;
-}
+
 .size-2{
 flex:3;
 }
@@ -50,6 +38,10 @@ footer{
 .c-bg{
   background-color:rgba(255, 255, 255, 0.3);
 }
+.slider-bg{
+  border-radius: 1rem;
+  background-color:rgba(255, 255, 255, 0.3);
+}
 .main-heading {
   padding: 0.5rem;
   font-size: 3rem;
@@ -57,7 +49,7 @@ footer{
 }
 .footer-list {
   text-decoration: none;
-  padding: 10px;
+  padding: 1rem;
 }
 .flash-search :hover {
   transition: .01s;
@@ -81,6 +73,75 @@ footer{
   height:40px;
   border-radius: .5rem;
 }
+
+
+.branch-btn-grad {background-image: linear-gradient(to right, #4568DC 0%, #B06AB3  51%, #4568DC  100%)}
+.branch-btn-grad {
+  text-decoration: none;
+margin: 1rem;
+text-align: center;
+text-transform: uppercase;
+transition: 0.5s;
+background-size: 200% auto;
+color: white;
+border-radius: 1rem;
+display: block;
+}
+
+.branch-btn-grad:hover {
+background-position: right center; /* change the direction of the change here */
+color: #fff;
+text-decoration: none;
+ }
+         
+         
+
+         .footer-btn-grad {background-image: linear-gradient(to right, #83a4d4 0%, #b6fbff  51%, #83a4d4  100%)}
+         .footer-btn-grad {
+            margin: 1rem;
+            
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: rgb(0, 0, 0); 
+            font-weight:600;           
+            box-shadow: 0 0 2rem rgba(0, 0, 0, 0.349);
+            border-radius: 1rem;
+            display: block;
+          }
+
+          .footer-btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+          }
+         
+         
+.btn-grad {background-image: linear-gradient(to right, #fc00ff 0%, #00dbde  51%, #fc00ff  100%)}
+.btn-grad {
+margin: 10px;
+text-align: center;
+text-transform: uppercase;
+transition: 0.5s;
+background-size: 200% auto;
+color: white;            
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.411);
+border-radius: 10px;
+display: block;
+}
+
+.btn-grad:hover {
+background-position: right center; /* change the direction of the change here */
+color: #fff;
+text-decoration: none;
+}
+         
+.background-for-slide{
+  background-image: linear-gradient( 109.6deg,  rgba(48,207,208,1) 11.2%, rgba(51,8,103,1) 92.5% );
+  height: 100%;
+  color: rgb(255, 255, 255);
+}
 .background-for-all {
   background-image: linear-gradient( 109.6deg,  rgba(9,9,121,1) 11.2%, rgba(144,6,161,1) 53.7%, rgba(0,212,255,1) 100.2% );
   height: 100%;
@@ -94,6 +155,8 @@ footer{
 .child-div {
   height: 100%;
 }
+
+
 @media (max-width: 576px) {
   .background-for-all {
   height: 100%;
