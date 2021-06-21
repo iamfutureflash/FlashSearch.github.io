@@ -1,308 +1,344 @@
 html {
     background-color: rgb(0, 0, 0);
-    
 }
+
 * {
-  font-family: 'Roboto', sans-serif;
-  margin: 0%;
-  padding: 0%;
-  transition: all;
-  cursor:auto;
-  }
- .card-text{
-   font-size:1.5rem;
- } 
-.card{
-  border-radius:.5rem;
-  }
-  
-
-.custom-heading{
-  background-color: rgba(255, 255, 255, 0.295);
-  border-radius:.5rem;
-  color:rgb(0, 0, 0);
-font-size:1.5rem;
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    transition: all;
+    cursor: auto;
 }
 
-.size-2{
-flex:3;
+.card-text {
+    font-size: 1.5rem;
 }
 
- 
-footer{
-  background-color:rgba(109, 109, 109, 0.3);
+.card {
+    border-radius: .5rem;
 }
-.m-bg{
-  background-color:rgba(255, 255, 255, 0.3);
+
+.custom-heading {
+    background-color: rgba(255, 255, 255, 0.295);
+    border-radius: .5rem;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
 }
-.c-bg{
-  background-color:rgba(255, 255, 255, 0.3);
+
+.size-2 {
+    flex: 3;
 }
-.slider-bg{
-  border-radius: 1rem;
-  background-color:rgba(255, 255, 255, 0.3);
+
+footer {
+    background-color: rgba(109, 109, 109, 0.3);
 }
+
+.bg-nev-dropdown {
+    background-image: linear-gradient( 135deg, #EE9AE5 10%, #5961F9 100%);
+}
+
+.bg-nev {
+    background-image: linear-gradient( 135deg, #FAB2FF 10%, #1904E5 100%);
+}
+
+.m-bg {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.c-bg {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.slider-bg {
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
 .main-heading {
-  padding: 0.5rem;
-  font-size: 3rem;
-  color: rgb(255, 255, 255);
+    padding: 0.5rem;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
 }
+
 .footer-list {
-  text-decoration: none;
-  padding: 1rem;
+    text-decoration: none;
+    padding: 1rem;
 }
+
 .flash-search :hover {
-  transition: .01s;
-  color: rgb(255, 255, 255);
-  background-color:rgba(183, 0, 255, 0.267);
-  border-radius:30rem;
+    transition: .01s;
+    color: rgb(255, 255, 255);
+    background-color: rgba(183, 0, 255, 0.267);
+    border-radius: 30rem;
 }
-.flash-footer{
-  color:white;
-  font-size:1.4rem;
+
+.flash-footer {
+    color: white;
+    font-size: 1.4rem;
 }
+
 .flash-footer:hover {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  transition: 0.1s;
-  border:2px solid black;
-  color: rgb(255, 255, 255);
-  background-color:rgba(183, 0, 255, 0.267);
-  border-radius:30rem;
-  height:40px;
-  border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1s;
+    border: 2px solid black;
+    color: rgb(255, 255, 255);
+    background-color: rgba(183, 0, 255, 0.267);
+    border-radius: 30rem;
+    height: 40px;
+    border-radius: .5rem;
 }
 
+.nevbar-style {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
 
-.branch-btn-grad {background-image: linear-gradient(to right, #4568DC 0%, #B06AB3  51%, #4568DC  100%)}
 .branch-btn-grad {
-  text-decoration: none;
-margin: 1rem;
-text-align: center;
-text-transform: uppercase;
-transition: 0.5s;
-background-size: 200% auto;
-color: white;
-border-radius: 1rem;
-display: block;
+    background-image: linear-gradient(to right, #ff00cc 0%, #333399 51%, #ff00cc 100%)
+}
+
+.branch-btn-grad {
+    margin: .5rem;
+    text-decoration: none;
+    padding: .4rem;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.521);
+    border-radius: 10px;
+    display: block;
 }
 
 .branch-btn-grad:hover {
-background-position: right center; /* change the direction of the change here */
-color: #fff;
-text-decoration: none;
- }
-         
-         
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
 
-         .footer-btn-grad {background-image: linear-gradient(to right, #83a4d4 0%, #b6fbff  51%, #83a4d4  100%)}
-         .footer-btn-grad {
-            margin: 1rem;
-            
-            text-align: center;
-            text-transform: uppercase;
-            transition: 0.5s;
-            background-size: 200% auto;
-            color: rgb(0, 0, 0); 
-            font-weight:600;           
-            box-shadow: 0 0 2rem rgba(0, 0, 0, 0.349);
-            border-radius: 1rem;
-            display: block;
-          }
+.footer-btn-grad {
+    background-image: linear-gradient(to right, #A770EF 0%, #CF8BF3 51%, #A770EF 100%)
+}
 
-          .footer-btn-grad:hover {
-            background-position: right center; /* change the direction of the change here */
-            color: rgb(0, 0, 0);
-            text-decoration: none;
-          }
-         
-         
-.btn-grad {background-image: linear-gradient(to right, #fc00ff 0%, #00dbde  51%, #fc00ff  100%)}
+.footer-btn-grad {
+    margin: .5rem;
+    text-decoration: none;
+    padding: .4rem;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.507);
+    border-radius: .5rem;
+    display: block;
+}
+
+.footer-btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
 .btn-grad {
-margin: 10px;
-text-align: center;
-text-transform: uppercase;
-transition: 0.5s;
-background-size: 200% auto;
-color: white;            
-box-shadow: 0 0 20px rgba(0, 0, 0, 0.411);
-border-radius: 10px;
-display: block;
+    background-image: linear-gradient(to right, #fc00ff 0%, #00dbde 51%, #fc00ff 100%)
+}
+
+.btn-grad {
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.411);
+    border-radius: 10px;
+    display: block;
 }
 
 .btn-grad:hover {
-background-position: right center; /* change the direction of the change here */
-color: #fff;
-text-decoration: none;
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
 }
-         
-.background-for-slide{
-  background-image: linear-gradient( 109.6deg,  rgba(48,207,208,1) 11.2%, rgba(51,8,103,1) 92.5% );
-  height: 100%;
-  color: rgb(255, 255, 255);
+
+.background-for-slide {
+    background-image: linear-gradient( 109.6deg, rgba(48, 207, 208, 1) 11.2%, rgba(51, 8, 103, 1) 92.5%);
+    height: 100%;
+    color: rgb(255, 255, 255);
 }
+
 .background-for-all {
-  background-image: linear-gradient( 109.6deg,  rgba(9,9,121,1) 11.2%, rgba(144,6,161,1) 53.7%, rgba(0,212,255,1) 100.2% );
-  height: 100%;
-  width: 100%;
-  color: rgb(255, 255, 255);
+    background-image: linear-gradient( 109.6deg, rgba(9, 9, 121, 1) 11.2%, rgba(144, 6, 161, 1) 53.7%, rgba(0, 212, 255, 1) 100.2%);
+    height: 100%;
+    width: 100%;
+    color: rgb(255, 255, 255);
 }
 
 .main-div {
-  height: 100%;
-}
-.child-div {
-  height: 100%;
+    height: 100%;
 }
 
+.child-div {
+    height: 100%;
+}
 
 @media (max-width: 576px) {
-  .background-for-all {
-  height: 100%;
-  width: 100%;
-  color: rgb(255, 255, 255);
-    
-  }
-  .small_grid{    
-    flex-direction:column;
-  }
-
-  html {
-    font-size: 100%;
-    background-color: black;
-
-  }
+    .background-for-all {
+        height: 100%;
+        width: 100%;
+        color: rgb(255, 255, 255);
+    }
+    .small_grid {
+        flex-direction: column;
+    }
+    html {
+        font-size: 100%;
+        background-color: black;
+    }
 }
+
 @media (max-width: 499px) {
-  .background-for-all {
-    height: 100%;
-    width: 100%;
-    color: rgb(255, 255, 255);
-  }
-  .small_grid{    
-    flex-direction:column;
-  }
+    .background-for-all {
+        height: 100%;
+        width: 100%;
+        color: rgb(255, 255, 255);
+    }
+    .small_grid {
+        flex-direction: column;
+    }
+    html {
+        font-size: 80%;
+        background-color: black;
+    }
+}
 
-  html {
-    font-size: 80%;
-    background-color: black;
-  }
-}
 @media (max-width: 430px) {
-  .background-for-all {
-    height: 100%;
-    width: 100%;
-    color: rgb(255, 255, 255);
-  }
-  .small_grid{    
-    flex-direction:column;
-  }
-  html {
-    font-size: 70%;
-    background-color: black;
-  }
+    .background-for-all {
+        height: 100%;
+        width: 100%;
+        color: rgb(255, 255, 255);
+    }
+    .small_grid {
+        flex-direction: column;
+    }
+    html {
+        font-size: 70%;
+        background-color: black;
+    }
 }
+
 @media (max-width: 364px) {
-  .background-for-all {
-    height: 100%;
-    width: 100%;
-    color: rgb(255, 255, 255);
-  }
-  .small_grid{    
-    flex-direction:column;
-  }
-  html {
-    font-size: 60%;
-    background-color: black;
-  }
+    .background-for-all {
+        height: 100%;
+        width: 100%;
+        color: rgb(255, 255, 255);
+    }
+    .small_grid {
+        flex-direction: column;
+    }
+    html {
+        font-size: 60%;
+        background-color: black;
+    }
 }
+
 @media (max-width: 330px) {
-  .background-for-all {
-    height: 100%;
-    width: 100%;
-    color: rgb(255, 255, 255);
-  }
-  .small_grid{    
-    flex-direction:column;
-  }
-  html {
-    font-size: 50%;
-    background-color: black;
-  }
+    .background-for-all {
+        height: 100%;
+        width: 100%;
+        color: rgb(255, 255, 255);
+    }
+    .small_grid {
+        flex-direction: column;
+    }
+    html {
+        font-size: 50%;
+        background-color: black;
+    }
 }
+
 @media (max-width: 265px) {
-  .background-for-all {
-    height: 100%;
-    width: 100%;
-    color: rgb(255, 255, 255);
-  }
-  .small_grid{    
-    flex-direction:column;
-  }
-  html {
-    font-size: 40%;
-    height: 100vh;
-    background-color: black;
-  }
+    .background-for-all {
+        height: 100%;
+        width: 100%;
+        color: rgb(255, 255, 255);
+    }
+    .small_grid {
+        flex-direction: column;
+    }
+    html {
+        font-size: 40%;
+        height: 100vh;
+        background-color: black;
+    }
 }
+
 @media (max-width: 213px) {
-  .background-for-all {
-    height: 100%;
-    width: 100%;
-    color: rgb(255, 255, 255);
-  }
-  .small_grid{    
-    flex-direction:column;
-  }
-  html {
-    font-size: 30%;
-    height: 100vh;
-    background-color: black;
-  }
+    .background-for-all {
+        height: 100%;
+        width: 100%;
+        color: rgb(255, 255, 255);
+    }
+    .small_grid {
+        flex-direction: column;
+    }
+    html {
+        font-size: 30%;
+        height: 100vh;
+        background-color: black;
+    }
 }
+
 @media (max-width: 180px) {
-  .background-for-all {
-    height: 100%;
-    width: 100%;
-    color: rgb(255, 255, 255);
-  }
-  .small_grid{    
-    flex-direction:column;
-  }
-  html {
-    font-size: 20%;
-    height: 100vh;
-    background-color: black;
-  }
+    .background-for-all {
+        height: 100%;
+        width: 100%;
+        color: rgb(255, 255, 255);
+    }
+    .small_grid {
+        flex-direction: column;
+    }
+    html {
+        font-size: 20%;
+        height: 100vh;
+        background-color: black;
+    }
 }
+
 @media (max-width: 112px) {
-  .background-for-all {
-    height: 100%;
-    width: 100%;
-    color: rgb(255, 255, 255);
-  }
-  .small_grid{    
-    flex-direction:column;
-  }
-  html {
-    font-size: 10%;
-    height: 100vh;
-    background-color: black;
-  }
+    .background-for-all {
+        height: 100%;
+        width: 100%;
+        color: rgb(255, 255, 255);
+    }
+    .small_grid {
+        flex-direction: column;
+    }
+    html {
+        font-size: 10%;
+        height: 100vh;
+        background-color: black;
+    }
 }
+
 @media (max-width: 60px) {
-  .background-for-all {
-    height: 100%;
-    width: 100%;
-    color: rgb(255, 255, 255);
-  }
-  .small_grid{    
-    flex-direction:column;
-  }
-  html {
-    font-size: 6%;
-    height: 100vh;
-    background-color: black;
-  }
+    .background-for-all {
+        height: 100%;
+        width: 100%;
+        color: rgb(255, 255, 255);
+    }
+    .small_grid {
+        flex-direction: column;
+    }
+    html {
+        font-size: 6%;
+        height: 100vh;
+        background-color: black;
+    }
 }
