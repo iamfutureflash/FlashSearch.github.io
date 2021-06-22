@@ -57,12 +57,15 @@ footer {
 .main-heading {
     padding: 0.5rem;
     font-size: 3rem;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 85, 241);
+    font-size: 5rem;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: 5px 5px 10px rgba(255, 0, 221, 0.479), 5px 5px 30px rgba(255, 0, 221, 0.479), 5px 5px 60px rgba(255, 0, 221, 0.479), 5px 5px 80px rgba(255, 0, 221, 0.479);
 }
 
 .footer-list {
     text-decoration: none;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .flash-search :hover {
@@ -95,6 +98,11 @@ footer {
     font-weight: 600;
 }
 
+.branch-size {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
 .branch-btn-grad {
     background-image: linear-gradient(to right, #ff00cc 0%, #333399 51%, #ff00cc 100%)
 }
@@ -107,7 +115,7 @@ footer {
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.521);
     border-radius: 10px;
     display: block;
@@ -116,7 +124,7 @@ footer {
 .branch-btn-grad:hover {
     background-position: right center;
     /* change the direction of the change here */
-    color: #fff;
+    color: rgb(251, 255, 0);
     text-decoration: none;
 }
 
