@@ -17,27 +17,27 @@ html {
 .card {
     width: 100%;
     border-radius: .5rem;
-    box-shadow: 0 0 10px rgb(255, 0, 0);
+    box-shadow: 0 0 10px rgb(0, 247, 255);
 }
 
 .custom-main-heading {
     padding: .5rem .8rem .5rem .8rem;
-    background-image: radial-gradient( circle farthest-corner at 50.3% 44.5%, rgba(116, 147, 179, 1) 0%, rgba(62, 83, 104, 1) 100.2%);
-    border: rgb(255, 0, 0) solid .1rem;
+    background-image: radial-gradient( circle farthest-corner at 50.3% 44.5%, rgb(0, 238, 255) 0%, rgb(4, 0, 255) 100.2%);
+    border: rgb(0, 247, 255) solid .1rem;
     border-radius: 1rem;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 1.4rem;
-    box-shadow: 0 0 15px rgb(255, 0, 0);
+    box-shadow: 0 0 15px rgb(0, 247, 255);
 }
 
 .custom-heading {
     padding: .5rem 1rem .5rem 1rem;
-    background-image: radial-gradient( circle farthest-corner at 50.3% 44.5%, rgba(116, 147, 179, 1) 0%, rgba(62, 83, 104, 1) 100.2%);
-    border: rgb(255, 0, 0) solid .1rem;
+    background-image: radial-gradient( circle farthest-corner at 50.3% 44.5%, rgba(0, 238, 255) 0%, rgb(4, 0, 255) 100.2%);
+    border: rgb(0, 247, 255) solid .1rem;
     border-radius: .5rem;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 1.5rem;
-    box-shadow: 0 0 10px rgb(255, 0, 0);
+    box-shadow: 0 0 10px rgb(0, 247, 255);
 }
 
 .size-2 {
@@ -53,7 +53,8 @@ footer {
 }
 
 .bg-nev {
-    background-image: linear-gradient( 135deg, #FAB2FF 10%, #1904E5 100%);
+    background-image: radial-gradient( circle farthest-corner at 50.3% 44.5%, rgba(0, 238, 255) 0%, rgb(4, 0, 255) 100.2%);
+    border-radius: 5rem;
 }
 
 .m-bg {
@@ -119,7 +120,7 @@ footer {
 }
 
 .branch-btn-grad {
-    background-image: radial-gradient( circle farthest-corner at 50.3% 44.5%, rgba(116, 147, 179, 1) 0%, rgba(0, 0, 0, 0.575) 100.2%);
+    background-image: radial-gradient( circle farthest-corner at 50.3% 44.5%, rgba(0, 238, 255) 0%, rgb(4, 0, 255) 100.2%);
 }
 
 .branch-btn-grad {
@@ -132,8 +133,8 @@ footer {
     transition: 0.5s;
     background-size: 200% auto;
     color: rgb(255, 255, 255);
-    border: rgb(255, 159, 15) solid 2px;
-    box-shadow: 0 0 10px rgb(255, 159, 15);
+    border: rgb(0, 247, 255) solid 2px;
+    box-shadow: 0 0 10px rgb(0, 247, 255);
     border-radius: 10px;
     display: block;
 }
@@ -142,7 +143,7 @@ footer {
     background-image: linear-gradient(to right, #F09819 0%, #EDDE5D 51%, #F09819 100%);
     box-shadow: 0 0 20px rgb(255, 255, 255);
     background-position: right center;
-    border: rgb(255, 255, 255) dashed 2px;
+    border: rgb(255, 255, 255) solid 2px;
     /* change the direction of the change here */
     color: rgb(255, 255, 255);
     text-decoration: none;
