@@ -15,27 +15,29 @@ html {
 }
 
 .card {
+    width: 100%;
     border-radius: .5rem;
+    box-shadow: 0 0 10px rgb(255, 0, 0);
 }
 
 .custom-main-heading {
-    padding: .5rem 1rem .5rem 1rem;
-    background-color: #8EC5FC;
-    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
-    border: rgb(255, 255, 255) solid .1rem;
+    padding: .5rem .8rem .5rem .8rem;
+    background-image: radial-gradient( circle farthest-corner at 50.3% 44.5%, rgba(116, 147, 179, 1) 0%, rgba(62, 83, 104, 1) 100.2%);
+    border: rgb(255, 0, 0) solid .1rem;
     border-radius: 1rem;
-    color: rgb(0, 0, 0);
-    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    box-shadow: 0 0 15px rgb(255, 0, 0);
 }
 
 .custom-heading {
     padding: .5rem 1rem .5rem 1rem;
-    background-color: #8EC5FC;
-    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
-    border: rgb(0, 0, 0) solid .1rem;
+    background-image: radial-gradient( circle farthest-corner at 50.3% 44.5%, rgba(116, 147, 179, 1) 0%, rgba(62, 83, 104, 1) 100.2%);
+    border: rgb(255, 0, 0) solid .1rem;
     border-radius: .5rem;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 1.5rem;
+    box-shadow: 0 0 10px rgb(255, 0, 0);
 }
 
 .size-2 {
@@ -59,7 +61,7 @@ footer {
 }
 
 .c-bg {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(15, 16, 63, 0.3);
 }
 
 .slider-bg {
@@ -70,10 +72,10 @@ footer {
 .main-heading {
     padding: 0.5rem;
     font-size: 3rem;
-    color: rgb(255, 85, 241);
+    color: rgb(244, 255, 85);
     font-size: 5rem;
     font-family: 'Bebas Neue', cursive;
-    text-shadow: 5px 5px 10px rgba(255, 0, 221, 0.479), 5px 5px 30px rgba(255, 0, 221, 0.479), 5px 5px 60px rgba(255, 0, 221, 0.479), 5px 5px 80px rgba(255, 0, 221, 0.479);
+    text-shadow: -5px 5px 0px #00e6e6, -10px 10px 0px #01cccc, -15px 15px 0px #00bdbd;
 }
 
 .footer-list {
@@ -117,7 +119,7 @@ footer {
 }
 
 .branch-btn-grad {
-    background-image: linear-gradient(to right, #322fff 0%, #ff20cf 51%, #0a96e7 100%);
+    background-image: radial-gradient( circle farthest-corner at 50.3% 44.5%, rgba(116, 147, 179, 1) 0%, rgba(0, 0, 0, 0.575) 100.2%);
 }
 
 .branch-btn-grad {
@@ -129,13 +131,15 @@ footer {
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
-    color: rgb(0, 0, 0);
-    border: black solid 1px;
+    color: rgb(255, 255, 255);
+    border: rgb(255, 159, 15) solid 2px;
+    box-shadow: 0 0 10px rgb(255, 159, 15);
     border-radius: 10px;
     display: block;
 }
 
 .branch-btn-grad:hover {
+    background-image: linear-gradient(to right, #F09819 0%, #EDDE5D 51%, #F09819 100%);
     box-shadow: 0 0 20px rgb(255, 255, 255);
     background-position: right center;
     border: rgb(255, 255, 255) dashed 2px;
@@ -179,7 +183,7 @@ footer {
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.411);
     border-radius: 10px;
     display: block;
@@ -193,13 +197,13 @@ footer {
 }
 
 .background-for-slide {
-    background-image: linear-gradient( 109.6deg, rgba(48, 207, 208, 1) 11.2%, rgba(51, 8, 103, 1) 92.5%);
+    background-image: linear-gradient( 360.1deg, rgb(18, 20, 36) 11.4%, rgb(5, 26, 88) 70.2%);
     color: rgb(255, 255, 255);
     width: 100%;
 }
 
 .background-for-all {
-    background-image: linear-gradient( 109.6deg, rgba(9, 9, 121, 1) 11.2%, rgba(144, 6, 161, 1) 53.7%, rgba(0, 212, 255, 1) 100.2%);
+    background-image: linear-gradient( 360.1deg, rgb(18, 20, 36) 11.4%, rgb(5, 26, 88) 70.2%);
     height: 100%;
     width: 100%;
     color: rgb(255, 255, 255);
