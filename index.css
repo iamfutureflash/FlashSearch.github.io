@@ -18,8 +18,21 @@ html {
     border-radius: .5rem;
 }
 
+.custom-main-heading {
+    padding: .5rem 1rem .5rem 1rem;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    border: rgb(255, 255, 255) solid .1rem;
+    border-radius: 1rem;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+}
+
 .custom-heading {
-    background-color: rgba(255, 255, 255, 0.295);
+    padding: .5rem 1rem .5rem 1rem;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    border: rgb(0, 0, 0) solid .1rem;
     border-radius: .5rem;
     color: rgb(0, 0, 0);
     font-size: 1.5rem;
@@ -30,7 +43,7 @@ html {
 }
 
 footer {
-    background-color: rgba(109, 109, 109, 0.3);
+    background-color: rgba(255, 255, 255, 0.400);
 }
 
 .bg-nev-dropdown {
@@ -104,27 +117,30 @@ footer {
 }
 
 .branch-btn-grad {
-    background-image: linear-gradient(to right, #ff00cc 0%, #333399 51%, #ff00cc 100%)
+    background-image: linear-gradient(to right, #322fff 0%, #ff20cf 51%, #0a96e7 100%);
 }
 
 .branch-btn-grad {
-    margin: .5rem;
     text-decoration: none;
-    padding: .4rem;
+    font-style: italic;
+    margin: 1em;
+    padding: .5em 1em .5em 1em;
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
-    color: rgb(255, 255, 255);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.521);
+    color: rgb(0, 0, 0);
+    border: black solid 1px;
     border-radius: 10px;
     display: block;
 }
 
 .branch-btn-grad:hover {
+    box-shadow: 0 0 20px rgb(255, 255, 255);
     background-position: right center;
+    border: rgb(255, 255, 255) dashed 2px;
     /* change the direction of the change here */
-    color: rgb(251, 255, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -140,13 +156,14 @@ footer {
     transition: 0.5s;
     background-size: 200% auto;
     color: rgb(0, 0, 0);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.507);
     border-radius: .5rem;
     display: block;
+    font-weight: 500;
 }
 
 .footer-btn-grad:hover {
     background-position: right center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.407);
     /* change the direction of the change here */
     color: #fff;
     text-decoration: none;
@@ -177,8 +194,8 @@ footer {
 
 .background-for-slide {
     background-image: linear-gradient( 109.6deg, rgba(48, 207, 208, 1) 11.2%, rgba(51, 8, 103, 1) 92.5%);
-    height: 100%;
     color: rgb(255, 255, 255);
+    width: 100%;
 }
 
 .background-for-all {
@@ -202,9 +219,6 @@ footer {
         width: 100%;
         color: rgb(255, 255, 255);
     }
-    .small_grid {
-        flex-direction: column;
-    }
     html {
         font-size: 100%;
         background-color: black;
@@ -212,14 +226,6 @@ footer {
 }
 
 @media (max-width: 499px) {
-    .background-for-all {
-        height: 100%;
-        width: 100%;
-        color: rgb(255, 255, 255);
-    }
-    .small_grid {
-        flex-direction: column;
-    }
     html {
         font-size: 80%;
         background-color: black;
@@ -227,14 +233,6 @@ footer {
 }
 
 @media (max-width: 430px) {
-    .background-for-all {
-        height: 100%;
-        width: 100%;
-        color: rgb(255, 255, 255);
-    }
-    .small_grid {
-        flex-direction: column;
-    }
     html {
         font-size: 70%;
         background-color: black;
@@ -242,14 +240,6 @@ footer {
 }
 
 @media (max-width: 364px) {
-    .background-for-all {
-        height: 100%;
-        width: 100%;
-        color: rgb(255, 255, 255);
-    }
-    .small_grid {
-        flex-direction: column;
-    }
     html {
         font-size: 60%;
         background-color: black;
@@ -257,14 +247,6 @@ footer {
 }
 
 @media (max-width: 330px) {
-    .background-for-all {
-        height: 100%;
-        width: 100%;
-        color: rgb(255, 255, 255);
-    }
-    .small_grid {
-        flex-direction: column;
-    }
     html {
         font-size: 50%;
         background-color: black;
@@ -272,14 +254,6 @@ footer {
 }
 
 @media (max-width: 265px) {
-    .background-for-all {
-        height: 100%;
-        width: 100%;
-        color: rgb(255, 255, 255);
-    }
-    .small_grid {
-        flex-direction: column;
-    }
     html {
         font-size: 40%;
         height: 100vh;
@@ -288,14 +262,6 @@ footer {
 }
 
 @media (max-width: 213px) {
-    .background-for-all {
-        height: 100%;
-        width: 100%;
-        color: rgb(255, 255, 255);
-    }
-    .small_grid {
-        flex-direction: column;
-    }
     html {
         font-size: 30%;
         height: 100vh;
@@ -304,14 +270,6 @@ footer {
 }
 
 @media (max-width: 180px) {
-    .background-for-all {
-        height: 100%;
-        width: 100%;
-        color: rgb(255, 255, 255);
-    }
-    .small_grid {
-        flex-direction: column;
-    }
     html {
         font-size: 20%;
         height: 100vh;
@@ -320,14 +278,6 @@ footer {
 }
 
 @media (max-width: 112px) {
-    .background-for-all {
-        height: 100%;
-        width: 100%;
-        color: rgb(255, 255, 255);
-    }
-    .small_grid {
-        flex-direction: column;
-    }
     html {
         font-size: 10%;
         height: 100vh;
@@ -336,14 +286,6 @@ footer {
 }
 
 @media (max-width: 60px) {
-    .background-for-all {
-        height: 100%;
-        width: 100%;
-        color: rgb(255, 255, 255);
-    }
-    .small_grid {
-        flex-direction: column;
-    }
     html {
         font-size: 6%;
         height: 100vh;
